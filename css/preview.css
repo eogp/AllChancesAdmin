@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-nov-2017, 20:53:29
+    Author     : enriquegomezpena
+*/
+
+#image-preview {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border-style: solid;
+    border-width: 1px;
+
+}
+#image-preview2 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border-style: solid;
+    border-width: 1px;
+
+}
+#image-preview3 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#image-preview input {
+    line-height: 180px;
+    font-size: 180px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview2 input {
+    line-height: 180px;
+    font-size: 180px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview3 input {
+    line-height: 180px;
+    font-size: 180px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+#image-preview2 label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+#image-preview3 label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
